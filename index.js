@@ -8,11 +8,9 @@ function calculateSequence () {
     c = a + b
     if (c % 2 === 0) {
       sumOfEvens += c
-      console.log('Verdien av C: ' + c)
     }
     a = b
     b = c
-    console.log('A er: ' + a + ' og B er: ' + b)
   }
   return sumOfEvens
 }
